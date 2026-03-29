@@ -1,20 +1,15 @@
-# Data (too large for git)
+# Data
 data/
 __pycache__/
 *.pyc
 
 # SLURM logs
 *.log
-slurm-*
 
-# Debug/temp files
-debug_*.py
-test_*.py
-bench_*.py
-
-# Checkpoints (large, keep only best weights)
+# Checkpoints (keep only final weights in weights/)
 *_ckpt.pt
 *_ckpt.npz
+qfeatures/
 
 # OS
 .DS_Store
